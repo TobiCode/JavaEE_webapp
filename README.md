@@ -16,9 +16,9 @@ You would also need to make: <br>
 - build a RDB -> change the DB_Url in DB_User.java <br>
 - remoove the hardcoded DB-username and DB-userpassword -> work with Environment Variables on your web server <br>
 You can then get the Environmentvariables, which should be your DB-URL, DB-username and DB_userpassword with System.getProperty(#environmentVariableName). Example Environment Variables: <br>
----DJDBC_CONNECTION_STRING=jdbc:mysql://#host_name.#domain_name.com:3306/#schema_name
----DJDBC_USER=root
----DJDBC_PASSWORD=test_pw
+---DJDBC_CONNECTION_STRING=jdbc:mysql://#host_name.#domain_name.com:3306/#schema_name <br>
+---DJDBC_USER=root <br>
+---DJDBC_PASSWORD=test_pw <br>
 - migrate your local MySql Schema to a RDB-System -> MySql Workbench provides a migration wizard therefore <br>
 
 
