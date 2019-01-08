@@ -12,7 +12,12 @@
   </head>
   <body>
   <h1> Hello World! </h1>
-  <p> Body text. This is y first web app  JSP page. </p>
+  <p> Body text. This is y first web app  JSP page.
+    Feel free to try to
+    <a href="login.jsp">Login</a>
+    or
+    Sign-Up.
+  </p>
 
   <%
       Date date = new Date();
