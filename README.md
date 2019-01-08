@@ -1,6 +1,6 @@
 # JavaEE_webapp
 
-##Explanation of the project
+## Explanation of the project
 This is a simple webapplication on a Tomcat Server with Java Servlets, Java Server Pages (JSP) and a MySql Database. <br>
 
 
@@ -17,7 +17,7 @@ You would also need to make: <br>
 - remoove the hardcoded DB-username and DB-userpassword -> work with Environment Variables or VM-options on your web server <br>
 - migrate your local MySql Schema to a RDB-System -> MySql Workbench provides a migration wizard therefore <br>
 
-##Some Pictures of the example project
+## Some Pictures of the example project
 
 <ul>
   MySQL-Database
